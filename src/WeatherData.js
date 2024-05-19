@@ -15,6 +15,7 @@ export default function WeatherData() {
         <div className="Weather-temperature-container">
           <img
             src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+            alt=""
             className="Weather-app-icon"
           />
           <div className="Weather-app-temperature">21</div>

@@ -7,6 +7,7 @@ export default function Forecast() {
         <div className="Forecast-date">Sun</div>
         <img
           src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+          alt=""
           className="Forecast-icon"
         />
         <div className="Forecast-temperatures">
@@ -20,6 +21,7 @@ export default function Forecast() {
         <div className="Forecast-date">Mon</div>
         <img
           src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+          alt=""
           className="Forecast-icon"
         />
         <div className="Forecast-temperatures">
@@ -33,6 +35,7 @@ export default function Forecast() {
         <div className="Forecast-date">Tue</div>
         <img
           src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+          alt=""
           className="Forecast-icon"
         />
         <div className="Forecast-temperatures">
@@ -46,6 +49,7 @@ export default function Forecast() {
         <div className="Forecast-date">Wed</div>
         <img
           src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+          alt=""
           className="Forecast-icon"
         />
         <div className="Forecast-temperatures">
@@ -59,6 +63,7 @@ export default function Forecast() {
         <div className="Forecast-date">Thu</div>
         <img
           src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+          alt=""
           className="Forecast-icon"
         />
         <div className="Forecast-temperatures">
