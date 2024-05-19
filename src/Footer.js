@@ -9,7 +9,10 @@ export default function Footer() {
       <a href="https://github.com/fedelia-chejieh/react-weather-app">
         open-sourced on Github
       </a>{" "}
-      and <a href="">hosted on Netlify</a>
+      and{" "}
+      <a href="https://github.com/fedelia-chejieh/react-weather-app">
+        hosted on Netlify
+      </a>
     </footer>
   );
 }
