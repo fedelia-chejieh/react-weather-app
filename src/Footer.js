@@ -10,7 +10,7 @@ export default function Footer() {
         open-sourced on Github
       </a>{" "}
       and{" "}
-      <a href="https://github.com/fedelia-chejieh/react-weather-app">
+      <a href="https://elaborate-blini-e170c7.netlify.app/">
         hosted on Netlify
       </a>
     </footer>
