@@ -12,12 +12,13 @@ function App() {
                 type="search"
                 placeholder="Enter a city.."
                 className="Search-input"
+                autoFocus="on"
               />
             </div>
             <div className="col-3">
               <input
                 type="submit"
-                value="search"
+                value="Search"
                 className="btn w-100 Search-button Search-button"
               />
             </div>
