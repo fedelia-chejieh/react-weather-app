@@ -15,7 +15,11 @@ function App() {
               />
             </div>
             <div className="col-3">
-              <button className="Search-button">Search</button>
+              <input
+                type="submit"
+                value="search"
+                className="btn w-100 Search-button Search-button"
+              />
             </div>
           </div>
         </form>

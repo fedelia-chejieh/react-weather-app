@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function WeatherData() {
   return (
-    <div className="Weather-app-data">
+    <div className="Weather-data">
       <div className="row">
         <div className="col-6 ">
           <h1 className="Weather-app-city">Paris</h1>
