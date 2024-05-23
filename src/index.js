@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
-import App from "./App";
 import WeatherData from "./WeatherData";
 import Forecast from "./Forecast";
 import Footer from "./Footer";
@@ -13,11 +12,8 @@ root.render(
   <React.StrictMode>
     <div className="Weather-app">
       <div className="container">
-        <App />
-        <main>
-          <WeatherData />
-          <Forecast />
-        </main>
+        <WeatherData />
+        <Forecast />
         <Footer />
       </div>
     </div>
