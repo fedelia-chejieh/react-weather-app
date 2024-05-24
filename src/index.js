@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <div className="Weather-app">
       <div className="container">
-        <WeatherData />
+        <WeatherData defaultCity="New York" />
         <Forecast />
         <Footer />
       </div>
