@@ -14,25 +14,24 @@
   border-radius: 6px;
 }
 
-.Weather .Search-button {
-  border: none;
-  padding: 15px 30px;
-  color: white;
-  border-radius: 6px;
+.Weather .btn {
   background-color: #eca04e;
+  border: none;
   font-size: 16px;
-  margin-left: 5px;
+  font-weight: 700;
+  height: 50px;
+  padding: 15px 0;
 }
 
 .Weather-data {
-  display: flex;
-  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .Weather-data h1 {
-  margin: 0;
-  font-size: 38px;
+  font-size: 50px;
   line-height: 48px;
+  font-weight: 700;
+  margin: 20px 0 10px;
 }
 
 .Weather-data p {
@@ -47,7 +46,8 @@
 }
 
 .Weather-data .Weather-temperature-container {
-  display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .Weather-data .Weather-temperature-container .Weather-app-icon {
@@ -69,7 +69,10 @@
 .Weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  border-bottom: 1px solid #f9f7fe;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .Weather-forecast .Forecast-date {

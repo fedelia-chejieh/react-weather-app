@@ -31,7 +31,7 @@ export default function WeatherData() {
                 <input
                   type="submit"
                   value="Search"
-                  className="btn w-100 Search-button Search-button"
+                  className="btn btn-primary w-100"
                 />
               </div>
             </div>
@@ -47,14 +47,16 @@ export default function WeatherData() {
               </p>
             </div>
 
-            <div className="col-6">
-              <div className="Weather-temperature-container">
+            <div className="col-lg-6 col-md-6 col-sm-8">
+              <div className="Weather-temperature-container d-flex justify-content-end">
                 <img
                   src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
                   alt=""
                   className="Weather-app-icon"
                 />
-                <div className="Weather-app-temperature">{temperature}</div>
+                <div className="Weather-app-temperature">
+                  {Math.round(temperature)}
+                </div>
                 <div className="Weather-app-unit">°C</div>
               </div>
             </div>
