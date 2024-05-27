@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
           <div className="col-6 ">
             <h1 className="Weather-app-city">{props.data.city}</h1>
             <p className="Weather-app-details">
-              <FormattedDate date={props.data.date} />,
+              <FormattedDate date={props.data.date} />,{" "}
               <span className="text-capitalize">{props.data.condition}</span>{" "}
               <br /> Humidity: <strong>{props.data.humidity}%</strong>, Wind:{" "}
               <strong>{props.data.wind}km/h</strong>
