@@ -13,7 +13,7 @@ export default function WeatherData(props) {
     setWeatherData({
       ready: true,
       city: response.data.city,
-      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
+      icon: response.data.condition.icon,
       temperature: Math.round(response.data.temperature.current),
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,

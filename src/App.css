@@ -51,9 +51,15 @@
   margin-top: 30px;
 }
 
-.Weather-data .Weather-temperature-container .Weather-app-icon {
+canvas {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Weather-data .Weather-temperature-container .Weather-app-icon canvas {
   width: 88px;
   height: 88px;
+  margin-right: 50px;
 }
 
 .Weather-data .Weather-temperature-container .Weather-app-temperature {
