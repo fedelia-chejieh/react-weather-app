@@ -49,33 +49,39 @@
 .Weather-data .Weather-temperature-container {
   align-items: center;
   margin-top: 30px;
+  margin-right: 30px;
 }
 
 canvas {
   margin-right: 10px;
-  margin-top: 10px;
 }
 
 .Weather-data .Weather-temperature-container .Weather-app-icon canvas {
   width: 88px;
   height: 88px;
-  margin-right: 50px;
 }
 
 .Weather-data .Weather-temperature-container .Weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
+  padding-right: 30px;
 }
 
 .Weather-data .Weather-temperature-container .Weather-app-unit {
-  font-size: 28px;
-  font-size: 28px;
+  font-size: 24px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 36px;
   line-height: 1;
   position: relative;
-  top: -17px;
+  top: -83px;
+  left: 103px;
+}
+
+.Weather-data .Weather-temperature-container .Weather-app-unit a {
+  text-decoration: none;
+  color: #eca04e;
 }
 
 .Weather-forecast {
