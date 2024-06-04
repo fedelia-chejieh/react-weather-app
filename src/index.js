@@ -13,7 +13,7 @@ root.render(
     <div className="Weather-app">
       <div className="container">
         <WeatherData defaultCity="New York" />
-        <Forecast />
+
         <Footer />
       </div>
     </div>
