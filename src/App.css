@@ -6,7 +6,7 @@
 }
 
 .Weather .Search-input {
-  background: #fcf8f3;
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
   border: none;
   padding: 15px 20px;
   width: 100%;
@@ -15,7 +15,7 @@
 }
 
 .Weather .btn {
-  background-color: #eca04e;
+  background-color: #91a2b7;
   border: none;
   font-size: 16px;
   font-weight: 700;
@@ -43,7 +43,7 @@
 }
 
 .Weather-data p strong {
-  color: #a35928;
+  color: #91a2b7;
 }
 
 .Weather-data .Weather-temperature-container {
@@ -81,7 +81,7 @@ canvas {
 
 .Weather-data .Weather-temperature-container .Weather-app-unit a {
   text-decoration: none;
-  color: #eca04e;
+  color: #91a2b7;
 }
 
 .Weather-forecast {
@@ -110,7 +110,7 @@ canvas {
 
 .Weather-forecast .Forecast-temperatures {
   text-align: center;
-  color: #a35928;
+  color: #91a2b7;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -129,5 +129,5 @@ canvas {
 }
 
 .footer a {
-  color: #eca04e;
+  color: #fdd156;
 }
