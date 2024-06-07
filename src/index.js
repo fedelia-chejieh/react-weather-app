@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import WeatherData from "./WeatherData";
-//import Forecast from "./Forecast";
+import Forecast from "./Forecast";
 import Footer from "./Footer";
 import reportWebVitals from "./reportWebVitals";
 
@@ -13,6 +13,7 @@ root.render(
     <div className="Weather-app">
       <div className="container">
         <WeatherData defaultCity="New York" />
+        <Forecast />
 
         <Footer />
       </div>
