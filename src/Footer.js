@@ -8,7 +8,7 @@ export default function Footer() {
       <a
         href="https://github.com/fedelia-chejieh"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
       >
         Fedelia Chejieh,
       </a>{" "}
@@ -16,7 +16,7 @@ export default function Footer() {
       <a
         href="https://github.com/fedelia-chejieh/react-weather-app"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
       >
         open-sourced on Github
       </a>{" "}
@@ -24,7 +24,7 @@ export default function Footer() {
       <a
         href="https://elaborate-blini-e170c7.netlify.app/"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
       >
         hosted on Netlify
       </a>
